@@ -43,6 +43,10 @@ app.use((err, req, res, next) => {
   });
 });
 
+app.get("/", (req, res) => {
+  res.send("working")
+})
+
 export default mongoose;
 
 const PORT = process.env.PORT;
