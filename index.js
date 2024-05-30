@@ -2,13 +2,13 @@ import express from 'express';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 import cors from 'cors';
-import authRouter from './routes/auth.route.js';
-import CategoryRouter from './routes/masters/Category.route.js';
-import BbaCourseRouter from './routes/masters/BbaCourse.route.js';
-import MbaCourseRouter from './routes/masters/MbaCourse.route.js';
-import BBAFormRouter from './routes/admissionform/bbaForm.route.js';
-import MBAFormRouter from './routes/admissionform/mbaForm.route.js';
-import StudentAuthRouter from './routes/studentsAuth.route.js';
+import authRouter from './src/routes/auth.route.js'
+import CategoryRouter from './src/routes/masters/Category.route.js';
+import BbaCourseRouter from './src/routes/masters/BbaCourse.route.js';
+import MbaCourseRouter from './src/routes/masters/MbaCourse.route.js';
+import BBAFormRouter from './src/routes/admissionform/bbaForm.route.js';
+import MBAFormRouter from './src/routes/admissionform/mbaForm.route.js';
+import StudentAuthRouter from './src/routes/studentsAuth.route.js';
 
 dotenv.config();
 

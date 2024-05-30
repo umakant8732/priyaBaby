@@ -1,4 +1,4 @@
-import connection from '../../index.js';
+import connection from '../../../index.js'
 import MbaCourseModel from '../../models/master/mbacourse.model.js';
 
 const createMbaCourse = async (req, res, next) => {
